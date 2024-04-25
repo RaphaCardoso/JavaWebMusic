@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(#518C77, #BFD9D1) no-repeat !important;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.600);
+    padding: 10px;
+}
+
+.butao {
+    float: right;
+}
+
+.nav-link {
+    color: aliceblue !important;
+    text-decoration: none !important;
+    font-size: larger;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(0, 0, 0, 0.300) !important;
+    flex-direction: row !important;
+    gap: 50px;
+    width: 70%;
+    height: 180px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.card-image-top {
+    width: 150px;
+    height: 150px;
+}
+
+.containerPlaylist {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 380px;
+    margin-top: 50px;
+}
+
+.containerPlaylist ol {
+    margin-top: 10px;
+}
+
+.containerPlaylist li {
+    color: #518C77 !important;
+    background-color: rgb(240, 255, 245);
+    width: 300px;
+    height: 60px;
+}
+
+.filhoPlaylist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    color: rgb(240, 255, 245);
+}
+
+.badge {
+    color: #518C77 !important;
+}
+
+.list-group {
+    flex-wrap: wrap;
+}
